@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TokenAuthentification", "To
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpellCheck", "SpellCheck", "{0A91B749-C826-4CF3-B9E8-8A807F9C9BB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthentification.Web", "TokenAuthentification.Web\TokenAuthentification.Web.csproj", "{51DE1F15-744A-4E48-A8CD-18970E681431}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{FCDD26F1-94C4-4691-BFB9-199DEB56A82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDD26F1-94C4-4691-BFB9-199DEB56A82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDD26F1-94C4-4691-BFB9-199DEB56A82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DE1F15-744A-4E48-A8CD-18970E681431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DE1F15-744A-4E48-A8CD-18970E681431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DE1F15-744A-4E48-A8CD-18970E681431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DE1F15-744A-4E48-A8CD-18970E681431}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0773E473-E565-4C01-ABCF-3D4E65406942} = {0A91B749-C826-4CF3-B9E8-8A807F9C9BB5}
 		{FCDD26F1-94C4-4691-BFB9-199DEB56A82F} = {108305FB-5F40-4712-A9D3-7790BCB89ED3}
+		{51DE1F15-744A-4E48-A8CD-18970E681431} = {108305FB-5F40-4712-A9D3-7790BCB89ED3}
 	EndGlobalSection
 EndGlobal
