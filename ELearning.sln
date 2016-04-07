@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellCheck", "SpellCheck\SpellCheck.csproj", "{0773E473-E565-4C01-ABCF-3D4E65406942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthentification", "TokenAuthentification\TokenAuthentification.csproj", "{FCDD26F1-94C4-4691-BFB9-199DEB56A82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthentification.API", "TokenAuthentification\TokenAuthentification.API.csproj", "{FCDD26F1-94C4-4691-BFB9-199DEB56A82F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TokenAuthentification", "TokenAuthentification", "{108305FB-5F40-4712-A9D3-7790BCB89ED3}"
 EndProject
