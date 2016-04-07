@@ -4,11 +4,11 @@ using System.Web.Http;
 
 namespace TokenAuthentification.Controllers
 {
-    [RoutePrefix("api/orders")]
-    public class OrdersController : ApiController
+    [RoutePrefix("api/order")]
+    public class OrderController : ApiController
     {
         [Authorize]
-        [Route("")]
+        [HttpGet]
         public IHttpActionResult Get()
         {
             return Ok(Order.CreateOrders());
